@@ -3,21 +3,23 @@ h1, h2, p {
 }
 
 h1, h2 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Caveat', cursive;
 }
 
 h1 {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  color: #1A4035;
 }
 
 h2 {
   font-size: 30px;
+  color: #593B2A;
 }
 
  body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-image: url(./assets/background.jpg) ;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,7 +34,7 @@ h2 {
   width: 80%; 
   max-width: 500px;
 
-  background-color: #FFC371;
+  background-color: #D99962;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -70,12 +72,13 @@ h2 {
 
  .est {
   font-style: italic;
+  color: #1A4035;
  }
 
  hr {
   height: 2px;
-  background-color: green;
-  border-color: green;
+  background-color: #1A4035;
+  border-color: #1A4035;
  }
 
  .bottom-line {
@@ -86,17 +89,18 @@ h2 {
 
 footer {
   font-size: 14px;
+  color: #593B2A;
 }
 
 a {
-  color: black;
+  color: #1A4035;
 }
 
-a:visited { color: grey; }
+a:visited { color: #1A4035; }
 
-a:hover { color: green; }
+a:hover { color: #BF5D24; }
 
-a:active { color: white; }
+a:active { color: #593B2A }
 
 
 
